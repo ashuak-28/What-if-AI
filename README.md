@@ -1,12 +1,55 @@
-# React + Vite
+# 🌌 What If – AI-Powered Alternate Life Simulator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**What If** is a dynamic web application that uses the power of AI to simulate alternate life scenarios based on your decisions. Whether you wonder _"What if I was a cricketer?"_ or _"What if I studied in the US?"_, this app crafts an engaging story, complete with visual timelines and multiverse scenarios.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔮 **AI-Powered Response** – Generates realistic alternate life stories using OpenAI.
+- 🕓 **Timeline Animation** – Shows your life year-by-year with glowing neon circles and animations.
+- 🌌 **Multiverse Cards** – Explore 3 alternate scenarios in parallel universes.
+- 📜 **History Panel** – View, regenerate, or delete your previous prompts.
+- 🎨 **Stylish UI** – Beautiful starfield background, glowing effects, and smooth transitions.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+| Frontend        | Backend          | AI/Cloud         | Styling         |
+|-----------------|------------------|------------------|-----------------|
+| React.js        | Node.js + Express| OpenAI API       | Tailwind CSS    |
+| Vite            | CORS, dotenv     |                  | Custom CSS      |
+
+---
+
+## 📁 Project Structure
+
+---
+
+## 🧪 How to Run Locally
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/ashuak-28/What-if-AI.git
+cd what-if
+
+# 2. Install frontend dependencies
+cd client
+npm install
+
+# 3. Install backend dependencies
+cd ../server
+npm install
+
+# 4. Add your OpenAI API key in server/.env
+OPENAI_API_KEY=your_key_here
+
+# 5. Run the backend
+node index.js
+
+# 6. Run the frontend (in another terminal)
+cd ../client
+npm run dev
+
+
