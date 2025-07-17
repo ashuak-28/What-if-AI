@@ -1,7 +1,7 @@
 # 🌌 What If – AI-Powered Alternate Life Simulator
 
 **What If** is a dynamic web application that uses the power of AI to simulate alternate life scenarios based on your decisions. Whether you wonder _"What if I was a cricketer?"_ or _"What if I studied in the US?"_, this app crafts an engaging story, complete with visual timelines and multiverse scenarios.
-DEMO VIDEO OF PROJECT WHAT-IF=  https://youtu.be/aUhR4s_L9z4
+DEMO VIDEO OF PROJECT WHAT-IF=  https://youtu.be/vZaYVQNzw2U?si=mSXblJ0xGU0RekZi
 
 ---
 
